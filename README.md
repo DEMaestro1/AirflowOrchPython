@@ -54,7 +54,7 @@ Start the installation with:
     docker-compose up -d
 
 This command will pull and create Docker images and containers for Airflow as well as another PostgreSQL container to store poverty data.
-This is done according to the instructions in the [docker-compose.yml](https://github.com/DEMaestro1/AirflowOrchPython/blob/main/docker-compose.yml) file:
+This is done according to the instructions in the [docker-compose.yml](https://github.com/DEMaestro1/AirflowOrchPython/blob/main/docker-compose.yaml) file:
 
 After everything has been installed, you can check the status of your containers (if they are healthy) with:
 
