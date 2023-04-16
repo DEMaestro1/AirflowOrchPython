@@ -1,2 +1,8 @@
 *.log
 *.pyc
+*.parquet
+__pycache__
+postgres-airflow-volume
+povertyDB
+logs
+plugins

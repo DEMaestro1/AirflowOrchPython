@@ -10,16 +10,13 @@ from tasks.pythonProcess import cleanFilterData, validateData
 rawFileLocation = '/opt/airflow/files/PovertyData.csv'
 sinkLocation = '/opt/airflow/files'
 fileName = 'PovertyData.csv'
-s3Bucket = 'readOnlyBucket'
-
 
 # DAG arguments
 defaultArgs = {
-    'owner': 'New_O',
+    'owner': 'DEMaestro1',
+    'depends_on_past': False,
     'start_date': datetime.datetime(2023, 1, 1),
-    'retries': 0,
-    'retry_delay': datetime.timedelta(seconds=30),
-    'catchup': False
+    'retries': 0
 }
 
 # DAG definition

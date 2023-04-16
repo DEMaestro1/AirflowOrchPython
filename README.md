@@ -96,6 +96,10 @@ The function validateData is called from the pythonProcess.py file.
 
 It is used to validate the data, this is a simple check to see if the data has been successfully loaded, there are plenty of checks that can be done as required.
 
+To confirm if the data has been loaded as intended, you can run the following command:
+  
+  docker exec -it airfloworchpython-postgres-db-1 psql -U user -d poverty -c "SELECT * FROM poverty_demographics"
+
 You can find a list of common data validation checks as well as information about why its important to have in your projects, [**here**](https://www.tibco.com/reference-center/what-is-data-validation).
 
 ## Shut Down and Restart Airflow
