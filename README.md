@@ -115,4 +115,4 @@ Recreate all the containers with:
 ## License
 You can check out the full license [here](https://github.com/DEMaestro1/AirflowOrchPython/blob/main/LICENSE)
 
-This project is licensed under the terms of the **MIT** license.
+This project is licensed under the terms of the **GNU GENERAL PUBLIC LICENSE Version 3**.
